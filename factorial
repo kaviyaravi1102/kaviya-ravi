@@ -1,0 +1,17 @@
+package com.factorial;
+  public class factorial {
+   public static void main(string[] args){
+   
+   //5!=5*4*3*2*1=120
+   
+   }
+   
+   public ststic int factorial(int n) {
+     if(n == 1)  {
+     
+     }
+     return 0;
+     
+     }
+     
+     }
