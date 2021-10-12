@@ -1,0 +1,11 @@
+package com.numberwords
+
+public classwords{
+  public static void main(string[]  args}
+  
+  NumberToWord nt=new number to word();
+  nt covertNumberToWords(Integer.parseInt("56"));
+  
+  system.out.println(nt.convertNumberToWords(Integer,parseInt("99")));
+  }
+  }
