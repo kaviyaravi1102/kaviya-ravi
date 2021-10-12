@@ -1,0 +1,13 @@
+package com.strings
+
+public class string {
+
+ public static void main{ string[] args}  {
+ 
+ system.out.println(change case);
+ 
+ result= change case to Uppercase();
+ 
+ system.out.println( result);
+ }
+} 
