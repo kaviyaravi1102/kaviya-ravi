@@ -1,24 +1,10 @@
-public static string[][] plot point(string[][] plot){
+package com.coordinates;
+
+public static  void main(string[] args) {
 int x=0,y=0;
-scanner sc = new scanner(system.in);
-boolean bool=true;
-while(bool) {
+
          system.out.println("enter x coordinates:");
-         x=sc.next int();
-         system.out.println("entery coordinates:");
-         y=sc.next int();
-
-         if(x>=5||x<0||y>||5||y<0)  {
-               system.out.println("the coordinates entered")
-               } else  {
-              y=y=1;
-              bool=false;
-
-              }
-
-              }
-              plot[plot.length-y][x] = "x";
-              return plot;
-
-              }
-
+         system.out.println("enter y coordinates:");
+        
+   system.out.println("the coordinates entered")
+               } 
