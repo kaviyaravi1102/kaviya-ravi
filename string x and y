@@ -1,0 +1,12 @@
+
+public class pint 2D_1
+
+ public static void main(string args[])
+ point 2D pint2d_1=NEW POINT (20.0f,150,Of);
+ double x,y;
+
+ x=point2d_1.getX();
+ y=point2d_1.getY();
+
+ system.out.println("x coordinates=" + x + " , y coordinate = " + y);
+ system.out.println("distance from + point 2d_1.distance(0, 0));
