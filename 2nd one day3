@@ -1,0 +1,21 @@
+import java.util.*;    
+public class ScannerNextDoubleExample3 
+{     
+public static void main{String args[]{    
+Scanner scan =new Scanner(System.in);     
+System.out.print("Enter value:");         
+if(scan.hasNextDouble())  
+{   
+Double y=scan.nextDouble();        
+System.out.println("Your entered Double value:")    
+}   
+else if(scan.hasNext())   
+{      
+System.out.println("please Entered the Double value:")   
+}    
+else if(scan.hasNext())   
+{     
+System.out.println("you entered:" + scan.next());     
+}    
+scan.close()     
+}
