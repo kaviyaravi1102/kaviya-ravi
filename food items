@@ -1,0 +1,30 @@
+public static void main(String[] args) {
+  int menuOption;
+  int foodItem = 0;
+  input = new Scanner(System.in);
+  double runningTotal=0;
+  do{
+    menu();
+    menuOption = input.nextInt();
+    switch(menuOption){
+      case 1:
+        foodItem = 1;
+        runningTotal += itemPrice(foodItem);
+        break;
+      case 2:
+        foodItem = 2;
+        runningTotal += itemPrice(foodItem);
+        break;
+      case 3:
+        foodItem = 3;
+        runningTotal += itemPrice(foodItem);
+        break;
+      case 4:
+        done(runningTotal);
+        break;
+      default:
+        System.out.println("Invalid option.");
+    }
+  } while(ordering);
+  System.out.println("Total amount: " + runningTotal);
+}
